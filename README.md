@@ -1,29 +1,19 @@
-# Welcome to your Lovable project
+# Cable Planner
 
-This project was built with [Lovable](https://lovable.dev).
+אפליקציית דפדפן לתכנון גיאומטרי ראשוני של תוואי מזיני חשמל ולבדיקת חישובים. קוד המקור הועבר מ-Lovable ל-GitHub כדי לאפשר פיתוח ואירוח סטטי ללא שירותי חישוב בתשלום.
 
-## Build with Lovable
+**לא תכנון הנדסי מאושר:** אין להשתמש בפלט לביצוע לפני בדיקת מתכנן חשמל מוסמך. זיהוי קירות אוטומטי, בחירת חתכים תקנית והגנות קצר אינם ממומשים עדיין.
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+## פיתוח מקומי
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+```bash
+npm install
 npm run dev
+npm run build
 ```
 
-## Built with
+## אירוח
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+GitHub Actions בונה קבצים סטטיים ומפרסם ל-GitHub Pages (Settings → Pages → Source: GitHub Actions). כל חישובי האפליקציה והעיבוד מתקיימים בדפדפן. התמונות נשארות במחשב המשתמש, ופרויקטים נשמרים בדפדפן או מיוצאים ידנית.
+
+קוד המקור גלוי במאגר ציבורי. אין להעלות תוכניות או מידע הנדסי חסוי למאגר.
